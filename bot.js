@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model("User", userSchema);
 
 // ------------------- [ ২. Telegram Bot Instance ] -------------------
-const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
+const bot = new TelegramBot('8692279106:AAHsmtw5uE1IIHHlDSjDbya7T8f6ACl8iL4', { polling: true });
 
 // ------------------- [ ৩. Telegram Commands & Buttons ] -------------------
 bot.onText(/\/start/, async (msg) => {
