@@ -5,7 +5,7 @@ const express = require('express');
 // ==========================================
 // ১. কনফিগারেশন (আপনার টোকেন এখানে বসানো হয়েছে)
 // ==========================================
-const BOT_TOKEN = '8692279106:AAHsmtw5uE1IIHHlDSjDbya7T8f6ACl8iL4';
+const BOT_TOKEN = '8692279106:AAEFsBmbTimfeU0O0NvrQzM5tkvmQVaGyeU';
 
 // নিচের 'YOUR_MONGO_URI_HERE' লেখাটি মুছে আপনার MongoDB লিঙ্ক বসাবেন (যদি ডাটাবেস ব্যবহার করতে চান)
 const MONGO_URI = process.env.MONGO_URI || 'YOUR_MONGO_URI_HERE';
