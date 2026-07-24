@@ -11,7 +11,7 @@ mongoose
   .then(() => console.log("MongoDB Database Connected Successfully!"))
   .catch((err) => console.log("MongoDB Connection Error:", err));
 
-// ইউজারের ডাটাবেজ মডেল
+// ইউজারের ডাটাবেজ স্কিমা (User Schema)
 const userSchema = new mongoose.Schema({
   userId: { type: Number, required: true, unique: true },
   name: String,
